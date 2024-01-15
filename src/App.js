@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <AboutSection text = "Welcome to the website of Tavish."/>
+      <AboutSection text = "Welcome to my portfolio website."/>
     </div>
   );
 }

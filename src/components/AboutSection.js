@@ -16,7 +16,6 @@ let AboutContent = (props) => {
             }
           };
           const timeoutId = setTimeout(typingEffect, 100);
-    
           return () => clearTimeout(timeoutId);
         }
     }, [content, count, props.text]);
@@ -29,11 +28,11 @@ let AboutContent = (props) => {
 }
 
 let TypingEffectDiv = (props) => {
+    const [isRendered, handleIsRendered] = useState(true);
+
     return (
         <div className='body-about-div-child'>
-            <AboutContent text={props.text.slice(props.indexStart, props.indexEnd)} />
-            <div className='mouse-div'>
-            </div>
+            <AboutContent text={props.text.slice(props.indexStart, props.indexEnd)}/>
         </div>  
     );
 }
@@ -51,9 +50,9 @@ let AboutSection = (props) => {
 
     return (
         <div className='body-about-div'>
-            <TypingEffectDiv text={props.text} indexStart={0} indexEnd={15} />
+            <TypingEffectDiv text={props.text} indexStart={0} indexEnd={14} />
             {firstTypingComplete &&
-                (<TypingEffectDiv text={props.text} indexStart={15} indexEnd={33} />)
+                (<TypingEffectDiv text={props.text} indexStart={14} indexEnd={38} />)
             }
         </div>
     );
