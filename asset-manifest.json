@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.3420acd2.css",
-    "main.js": "/react-gh-pages/static/js/main.3b7f29c1.js",
-    "static/js/787.50d926fe.chunk.js": "/react-gh-pages/static/js/787.50d926fe.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.3420acd2.css.map": "/react-gh-pages/static/css/main.3420acd2.css.map",
-    "main.3b7f29c1.js.map": "/react-gh-pages/static/js/main.3b7f29c1.js.map",
-    "787.50d926fe.chunk.js.map": "/react-gh-pages/static/js/787.50d926fe.chunk.js.map"
+    "main.css": "/Tavish-s-Portfolio/static/css/main.3420acd2.css",
+    "main.js": "/Tavish-s-Portfolio/static/js/main.d858ec2f.js",
+    "static/js/787.50d926fe.chunk.js": "/Tavish-s-Portfolio/static/js/787.50d926fe.chunk.js",
+    "index.html": "/Tavish-s-Portfolio/index.html",
+    "main.3420acd2.css.map": "/Tavish-s-Portfolio/static/css/main.3420acd2.css.map",
+    "main.d858ec2f.js.map": "/Tavish-s-Portfolio/static/js/main.d858ec2f.js.map",
+    "787.50d926fe.chunk.js.map": "/Tavish-s-Portfolio/static/js/787.50d926fe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3420acd2.css",
-    "static/js/main.3b7f29c1.js"
+    "static/js/main.d858ec2f.js"
   ]
 }
