@@ -37,20 +37,33 @@
   to {background-color: yellow; font-weight: 500;}
 }
 
+@keyframes bodyAnimation {
+  from {background-color: #f0f0f0; font-weight: 100;}
+  to {background-color: yellow; font-weight: 500;}
+}
+
 .body-about-div {
   width: 92%;
-  height: 60vh;
+  height: 70vh;
   margin-right: 4%;
   margin-left: 4%;
   border-bottom: solid;
   text-align: left;
-  padding-top: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
+
+.body-about-div::-webkit-scrollbar {
+  animation-name: nameFrame;
+  animation-duration: 2s;
+}
+
 
 .body-about-div p {
   font-size: 18vh;
   font-weight: 500;
   margin: 0;
+  max-width: fit-content;
 }
 
 .mouse-div {
