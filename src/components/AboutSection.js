@@ -42,7 +42,7 @@ let AboutSection = (props) => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      const opacity = 1 - scrollY / 550; // Adjust the divisor for the desired effect
+      const opacity = 1 - scrollY / 650; // Adjust the divisor for the desired effect
       control.start({ opacity });
     };
 

@@ -44,12 +44,12 @@
 
 .body-about-div {
   width: 92%;
-  height: 70vh;
+  height: 68vh;
   margin-right: 4%;
   margin-left: 4%;
   border-bottom: solid;
   text-align: left;
-  padding-top: 5%;
+  padding-top: 7%;
   padding-bottom: 5%;
 }
 
@@ -78,4 +78,127 @@
   justify-content: left;
   width: 100%;
   height: 30%;
+}
+
+.skills-section {
+  width: 100%;
+  height: 110vh;
+}
+
+.skills-section-header {
+  width: 96%;
+  margin-left: 4%;
+  justify-content: left;
+  display: flex;
+}
+
+.skills-section-header p {
+  font-size: 9vh;
+  font-weight: 500;
+  margin: 3% 0 0 0;
+}
+
+.skills-section-innerdiv {
+  width: 86%;
+  height: 76vh;
+  margin-right: 4%;
+  margin-left: 4%;
+  border-bottom: solid;
+  margin-top: 2%;
+  margin-bottom: 0;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.languages-sub-section {
+  height: 33.33%;
+  width: 90%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.language-icon-java {
+  background-color: black;
+}
+
+.language-icon-python {
+  background-color: black;
+}
+
+.language-icon-js {
+  background-color: black;
+}
+
+.language-icon-cpp {
+  background-color: black;
+}
+
+.language-icon-c {
+  background-color: black;
+}
+
+.info-section-div {
+  
+  width: 92%;
+  height: 90vh;
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1%;
+}
+
+.info-section-div li {
+  font-size: 120%;
+  font-weight: 500;
+  display: -webkit-box;
+  width: 100%;
+  height: fit-content;
+}
+
+.info-inner-div {
+  width: 50%;
+  height: 86%;
+  border-right: 2px solid;
+}
+
+.info-inner-div-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+.info-inner-div1 {
+  width: 50%;
+  height: 86%;
+  display: flex;
+  justify-content: center;
+}
+
+.my-image {
+  height: 60%;
+  margin-top: auto;
+  margin-bottom: auto;
+  transition: height 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+}
+
+.my-image:hover {
+  cursor: pointer;
+  border-radius: 40px;
+  height: 70%;
+}
+
+@keyframes photoAnimation {
+  from {
+    border-radius: 0;
+    height: 60%;
+  }
+  to {
+    border-radius: 40px;
+    height: 70%;
+  }
 }
