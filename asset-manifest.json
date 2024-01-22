@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Tavish-s-Portfolio/static/css/main.3420acd2.css",
-    "main.js": "/Tavish-s-Portfolio/static/js/main.d858ec2f.js",
-    "static/js/787.50d926fe.chunk.js": "/Tavish-s-Portfolio/static/js/787.50d926fe.chunk.js",
+    "main.css": "/Tavish-s-Portfolio/static/css/main.5c09444b.css",
+    "main.js": "/Tavish-s-Portfolio/static/js/main.93e73691.js",
+    "static/js/787.5236441f.chunk.js": "/Tavish-s-Portfolio/static/js/787.5236441f.chunk.js",
+    "static/media/166F3403-C4B5-45C2-B0A9-BFDE57A75C6E_1_105_c.jpeg": "/Tavish-s-Portfolio/static/media/166F3403-C4B5-45C2-B0A9-BFDE57A75C6E_1_105_c.5ac7921f1a5015da4f4b.jpeg",
     "index.html": "/Tavish-s-Portfolio/index.html",
-    "main.3420acd2.css.map": "/Tavish-s-Portfolio/static/css/main.3420acd2.css.map",
-    "main.d858ec2f.js.map": "/Tavish-s-Portfolio/static/js/main.d858ec2f.js.map",
-    "787.50d926fe.chunk.js.map": "/Tavish-s-Portfolio/static/js/787.50d926fe.chunk.js.map"
+    "main.5c09444b.css.map": "/Tavish-s-Portfolio/static/css/main.5c09444b.css.map",
+    "main.93e73691.js.map": "/Tavish-s-Portfolio/static/js/main.93e73691.js.map",
+    "787.5236441f.chunk.js.map": "/Tavish-s-Portfolio/static/js/787.5236441f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3420acd2.css",
-    "static/js/main.d858ec2f.js"
+    "static/css/main.5c09444b.css",
+    "static/js/main.93e73691.js"
   ]
 }
